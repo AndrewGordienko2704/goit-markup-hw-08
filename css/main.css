@@ -54,6 +54,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -202,6 +204,12 @@ body {
   fill: var(--accent-color);
 }
 
+@media screen and (min-width: 320px) and (max-width: 528px) {
+  .modal {
+    max-width: 100%;
+    height: auto;
+  }
+}
 .modal-form-title {
   font-weight: 700;
   font-size: 20px;
@@ -416,6 +424,7 @@ body {
   }
   .mobile-menu__mail-item {
     margin-top: 32px;
+    color: #757575;
   }
   .mobile-menu__mail-link {
     font-weight: 500;
@@ -806,7 +815,7 @@ body {
     fill: currentColor;
   }
   .benefits__information {
-    line-height: 1, 71;
+    line-height: 1.71;
     color: #757575;
   }
 }
@@ -854,7 +863,7 @@ body {
     color: #212121;
   }
   .benefits__information {
-    line-height: 1, 71;
+    line-height: 1.71;
     color: #757575;
   }
 }
@@ -923,7 +932,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 210px;
+    width: 100%;
     height: 92px;
     color: #AFB1B8;
     border: 1px solid #AFB1B8;
@@ -1246,6 +1255,7 @@ body {
   }
   .adres {
     font-size: 14px;
+    font-style: normal;
     line-height: 1.71;
     text-align: center;
     color: #FFFFFF;
@@ -1313,7 +1323,7 @@ body {
     row-gap: 20px;
   }
   .footer-form-input {
-    width: 450px;
+    width: 100%;
     height: 50px;
     background-color: var(--dark-background-color);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1380,6 +1390,7 @@ body {
   }
   .adres {
     font-size: 14px;
+    font-style: normal;
     line-height: 1.71;
     text-align: center;
     color: #FFFFFF;
