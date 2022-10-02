@@ -485,7 +485,7 @@ body {
     height: 40px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .open-mobile-menu-btn {
     display: none;
   }
@@ -543,14 +543,11 @@ body {
     width: 14px;
     height: 10px;
     margin-right: 8px;
-    color: #757575;
+    fill: #757575;
   }
   .smartphone {
     width: 10px;
     height: 14px;
-  }
-  .phone {
-    margin-top: 10px;
   }
   .tel {
     color: var(--primary-text-color);
@@ -565,6 +562,11 @@ body {
   }
   .tel:hover, .tel:focus {
     color: var(--accent-color);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .phone {
+    margin-top: 10px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1241,12 +1243,6 @@ body {
     text-align: center;
     background-color: var(--dark-background-color);
   }
-  .footer-navigation-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
   .part-logo {
     color: var(--background-color);
     margin-left: auto;
@@ -1303,24 +1299,15 @@ body {
     fill: var(--background-color);
   }
   .footer-box-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 60px;
   }
   .footer-form-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     text-transform: uppercase;
     color: var(--background-color);
     margin-bottom: 20px;
-  }
-  .footer-box-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 20px;
   }
   .footer-form-input {
     width: 100%;
@@ -1357,7 +1344,9 @@ body {
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin-left: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
   }
   .footer-form-input-icon {
     width: 24px;
@@ -1446,7 +1435,7 @@ body {
   .footer-form-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     text-transform: uppercase;
     color: var(--background-color);
     margin-bottom: 20px;
@@ -1587,7 +1576,7 @@ body {
   .footer-form-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     text-transform: uppercase;
     color: var(--background-color);
     margin-bottom: 20px;

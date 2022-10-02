@@ -41,7 +41,7 @@
 
 //tablet//
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
 
     .open-mobile-menu-btn {
         display: none;
@@ -114,16 +114,14 @@
     width: 14px;
     height: 10px;
     margin-right: 8px;
-    color: #757575;
+    fill: #757575;
 }
 
 .smartphone {
     width: 10px;
     height: 14px;
 }
-.phone {
-    margin-top: 10px;
-}
+
 
 .tel {
     color: var(--primary-text-color);
@@ -142,6 +140,11 @@
     }
 
 }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .phone {
+            margin-top: 10px;
+        }
 }
 
 @media screen and (min-width: 1200px) {
@@ -206,6 +209,7 @@
             }
 
         }
+        
 
     }
 
