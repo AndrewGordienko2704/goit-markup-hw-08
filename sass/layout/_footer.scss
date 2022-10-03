@@ -6,16 +6,14 @@
     background-color: var(--dark-background-color);
 }
 
-.footer-navigation-box {
-
-    
+.adress-nav {
+    margin-top: 20px;
 }
 .part-logo {
         color: var(--background-color);
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 20px;
-    }
+            }
 
     .adres {
     font-size: 14px;
@@ -68,7 +66,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        column-gap: 8px;
+        gap: 8px;
         margin-bottom: 60px;
     }
 
@@ -236,8 +234,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        column-gap: 8px;
-        margin-bottom: 60px;
+        gap: 8px;
+        
     }
 
 
@@ -342,6 +340,7 @@
     .address-nav {
         display: flex;
         justify-content: center;
+        align-items: baseline;
         
     }
 

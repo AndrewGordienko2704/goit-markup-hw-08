@@ -206,7 +206,7 @@ body {
 
 @media screen and (min-width: 320px) and (max-width: 528px) {
   .modal {
-    max-width: 100%;
+    max-width: 320px;
     height: auto;
   }
 }
@@ -1061,14 +1061,14 @@ body {
   .team__member {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.19;
     text-align: center;
-    color: #212121;
+    color: var(--title-text-color);
     margin-bottom: 10px;
   }
   .team__position {
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.19;
     text-align: center;
     color: #757575;
     margin-bottom: 16px;
@@ -1131,14 +1131,14 @@ body {
   .team__member {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.19;
     text-align: center;
-    color: #212121;
+    color: var(--title-text-color);
     margin-bottom: 10px;
   }
   .team__position {
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.19;
     text-align: center;
     color: #757575;
     margin-bottom: 16px;
@@ -1243,11 +1243,13 @@ body {
     text-align: center;
     background-color: var(--dark-background-color);
   }
+  .adress-nav {
+    margin-top: 20px;
+  }
   .part-logo {
     color: var(--background-color);
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
   }
   .adres {
     font-size: 14px;
@@ -1290,7 +1292,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    column-gap: 8px;
+    gap: 8px;
     margin-bottom: 60px;
   }
   .logo-list-icon-footer {
@@ -1418,8 +1420,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    column-gap: 8px;
-    margin-bottom: 60px;
+    gap: 8px;
   }
   .logo-list-icon-footer {
     width: 20px;
@@ -1497,6 +1498,7 @@ body {
   .address-nav {
     display: flex;
     justify-content: center;
+    align-items: baseline;
   }
   .basement {
     display: flex;
